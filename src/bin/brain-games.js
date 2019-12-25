@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import getName from '../index';
+import { showWelcomAndRules, getName } from '../index';
 
-console.log('Welcome to the Brain Games!');
+showWelcomAndRules();
 getName();

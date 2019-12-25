@@ -1,5 +1,3 @@
-<a href="https://codeclimate.com/github/codeclimate/codeclimate/maintainability"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability" /></a> <a href="https://codeclimate.com/github/codeclimate/codeclimate/test_coverage"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/test_coverage" /></a> <a href="https://codeclimate.com/github/codeclimate/codeclimate/test_coverage"><img src="https://travis-ci.com/jurassic-period/frontend-project-hexlet1.svg?branch=master" /></a>
+<a href="https://codeclimate.com/github/codeclimate/codeclimate/maintainability"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability" /></a> <a href="https://codeclimate.com/github/codeclimate/codeclimate/test_coverage"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/test_coverage" /></a> [![Build Status](https://travis-ci.org/jurassic-period/frontend-project-hexlet1.svg?branch=master)](https://travis-ci.org/jurassic-period/frontend-project-hexlet1)
 
 [![asciicast](https://asciinema.org/a/c83ZbzacnufMha7ybRSEC2GcA.svg)](https://asciinema.org/a/c83ZbzacnufMha7ybRSEC2GcA)
-
-<a href="https://asciinema.org/a/c83ZbzacnufMha7ybRSEC2GcA" target="_blank"><img src="https://asciinema.org/a/c83ZbzacnufMha7ybRSEC2GcA.svg" /></a>

@@ -15,4 +15,6 @@
 
 `npm link`
 
+Запуск первой игры `brain-even`
+
 [![asciicast](https://asciinema.org/a/c83ZbzacnufMha7ybRSEC2GcA.svg)](https://asciinema.org/a/c83ZbzacnufMha7ybRSEC2GcA)

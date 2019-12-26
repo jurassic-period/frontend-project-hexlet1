@@ -20,7 +20,7 @@ play: `brain-even`
 
 [![asciicast](https://asciinema.org/a/D3YH1U2jOYHPStBUuztxK3Mbc.svg)](https://asciinema.org/a/D3YH1U2jOYHPStBUuztxK3Mbc)
 
-## Игра: "Калькулятор" запустить
+## Игра: "Калькулятор"
 play: `brain-calc`
 
 [![asciicast](https://asciinema.org/a/pZkfMPLHaqr81T1OrHD7ftIHk.svg)](https://asciinema.org/a/pZkfMPLHaqr81T1OrHD7ftIHk)

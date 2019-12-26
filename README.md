@@ -13,8 +13,12 @@
 
 Локальная установка через `link`
 
-`npm link`
+После клонирования репозитория, в корне директории - `npm link`
 
-Запуск первой игры `brain-even`
+Игра: "Проверка на чётность" запустить - `brain-even`
 
 [![asciicast](https://asciinema.org/a/c83ZbzacnufMha7ybRSEC2GcA.svg)](https://asciinema.org/a/c83ZbzacnufMha7ybRSEC2GcA)
+
+Игра: "Калькулятор" запустить - `brain-calc`
+
+[![asciicast](https://asciinema.org/a/pZkfMPLHaqr81T1OrHD7ftIHk.svg)](https://asciinema.org/a/pZkfMPLHaqr81T1OrHD7ftIHk)

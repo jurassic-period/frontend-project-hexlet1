@@ -15,10 +15,12 @@
 
 После клонирования репозитория, в корне директории - `npm link`
 
-Игра: "Проверка на чётность" запустить - `brain-even`
+## Игра: "Проверка на чётность"
+play: `brain-even`
 
 [![asciicast](https://asciinema.org/a/D3YH1U2jOYHPStBUuztxK3Mbc.svg)](https://asciinema.org/a/D3YH1U2jOYHPStBUuztxK3Mbc)
 
-Игра: "Калькулятор" запустить - `brain-calc`
+## Игра: "Калькулятор" запустить
+play: `brain-calc`
 
 [![asciicast](https://asciinema.org/a/pZkfMPLHaqr81T1OrHD7ftIHk.svg)](https://asciinema.org/a/pZkfMPLHaqr81T1OrHD7ftIHk)

@@ -6,8 +6,8 @@
 
 ## Навыки и технологии
 
-+ настройка окружения (npm, babel, eslint)
-+ проверка кода (codeclimate, travis-ci)
++ настройка окружения (npm, babel)
++ проверка кода (codeclimate, travis-ci, eslint)
 
 ## Install
 
@@ -24,3 +24,8 @@ play: `brain-even`
 play: `brain-calc`
 
 [![asciicast](https://asciinema.org/a/pZkfMPLHaqr81T1OrHD7ftIHk.svg)](https://asciinema.org/a/pZkfMPLHaqr81T1OrHD7ftIHk)
+
+## Игра "НОД"
+play: `brain-gcd`
+
+[![asciicast](https://asciinema.org/a/BCnE8D1ymSX48z03J8oLZhnNX.svg)](https://asciinema.org/a/BCnE8D1ymSX48z03J8oLZhnNX)

@@ -32,3 +32,5 @@ run: `brain-gcd`
 
 ## Игра "Арифметическая прогрессия"
 run: `brain-progression`
+
+[![asciicast](https://asciinema.org/a/VX6YYfnOvXaApcx5sDCLoJ9de.svg)](https://asciinema.org/a/VX6YYfnOvXaApcx5sDCLoJ9de)

@@ -16,16 +16,19 @@
 После клонирования репозитория, в корне директории - `npm link`
 
 ## Игра: "Проверка на чётность"
-play: `brain-even`
+run: `brain-even`
 
 [![asciicast](https://asciinema.org/a/D3YH1U2jOYHPStBUuztxK3Mbc.svg)](https://asciinema.org/a/D3YH1U2jOYHPStBUuztxK3Mbc)
 
 ## Игра: "Калькулятор"
-play: `brain-calc`
+run: `brain-calc`
 
 [![asciicast](https://asciinema.org/a/pZkfMPLHaqr81T1OrHD7ftIHk.svg)](https://asciinema.org/a/pZkfMPLHaqr81T1OrHD7ftIHk)
 
 ## Игра "НОД"
-play: `brain-gcd`
+run: `brain-gcd`
 
 [![asciicast](https://asciinema.org/a/BCnE8D1ymSX48z03J8oLZhnNX.svg)](https://asciinema.org/a/BCnE8D1ymSX48z03J8oLZhnNX)
+
+## Игра "Арифметическая прогрессия"
+run: `brain-progression`

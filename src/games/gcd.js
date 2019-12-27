@@ -4,7 +4,7 @@ import { getRandomNum, playGame } from '../index';
 const rules = 'Find the greatest common divisor of given numbers.';
 
 const minNum = 1;
-const maxNum = 20;
+const maxNum = 30;
 
 const getAnswer = (num1, num2) => {
   if (num2 === 0) return num1;
@@ -18,7 +18,6 @@ const getRoundData = () => {
   const question = `${firstNum} ${secondNum}`;
   const correctAnswer = getAnswer(firstNum, secondNum);
   return cons(question, String(correctAnswer));
-
 };
 
 const playEvenGame = () => playGame(getRoundData, rules);

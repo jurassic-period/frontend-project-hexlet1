@@ -1,12 +1,12 @@
 import readlineSync from 'readline-sync';
 import { car, cdr } from '@hexlet/pairs';
 
+const welcome = 'Welcome to the Brain Games!';
+
 export const showWelcomAndRules = (rules) => {
+  console.log(welcome);
   if (rules) {
-    console.log('Welcome to the Brain Games!');
     console.log(rules);
-  } else {
-    console.log('Welcome to the Brain Games!');
   }
 };
 

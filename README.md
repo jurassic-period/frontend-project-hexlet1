@@ -36,6 +36,6 @@ run: `brain-progression`
 [![asciicast](https://asciinema.org/a/VX6YYfnOvXaApcx5sDCLoJ9de.svg)](https://asciinema.org/a/VX6YYfnOvXaApcx5sDCLoJ9de)
 
 ## Игра "Простое ли число?"
-run `brain-prime`
+run: `brain-prime`
 
 [![asciicast](https://asciinema.org/a/sG0lDF0ew91f0i9kkO7EvJH9d.svg)](https://asciinema.org/a/sG0lDF0ew91f0i9kkO7EvJH9d)

@@ -23,7 +23,7 @@ run: `brain-even`
 ## Игра: "Калькулятор"
 run: `brain-calc`
 
-[![asciicast](https://asciinema.org/a/pZkfMPLHaqr81T1OrHD7ftIHk.svg)](https://asciinema.org/a/pZkfMPLHaqr81T1OrHD7ftIHk)
+[![asciicast](https://asciinema.org/a/dMMsXkY0fh0921pl5TPlqcsbP.svg)](https://asciinema.org/a/dMMsXkY0fh0921pl5TPlqcsbP)
 
 ## Игра "НОД"
 run: `brain-gcd`

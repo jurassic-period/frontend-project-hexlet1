@@ -18,7 +18,7 @@
 ## Игра: "Проверка на чётность"
 run: `brain-even`
 
-[![asciicast](https://asciinema.org/a/D3YH1U2jOYHPStBUuztxK3Mbc.svg)](https://asciinema.org/a/D3YH1U2jOYHPStBUuztxK3Mbc)
+[![asciicast](https://asciinema.org/a/Y2lcwmvv0zOrNNB2iP3T5rBPZ.svg)](https://asciinema.org/a/Y2lcwmvv0zOrNNB2iP3T5rBPZ)
 
 ## Игра: "Калькулятор"
 run: `brain-calc`

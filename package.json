@@ -1,7 +1,13 @@
 {
   "name": "frontend-project-hexlet1",
   "version": "1.6.0",
-  "description": "",
+  "description": "hexlet console-game",
+  "keywords": [
+    "hexlet",
+    "console games",
+    "brain games",
+    "math games"
+  ],
   "main": "dist/bin/brain-games.js",
   "bin": {
     "brain-games": "dist/bin/brain-games.js",

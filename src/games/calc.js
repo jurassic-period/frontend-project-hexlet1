@@ -1,5 +1,5 @@
 import { cons } from '@hexlet/pairs';
-import { getRandomNum, playGame } from '../index';
+import { getRandomNum, playGame } from '..';
 
 const rules = 'What is the result of the expression?';
 

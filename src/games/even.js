@@ -1,7 +1,7 @@
 import { cons } from '@hexlet/pairs';
 import { getRandomNum, playGame } from '..';
 
-const rules = 'Answer "yes" if the number is even, otherwise answer "no"';
+const description = 'Answer "yes" if the number is even, otherwise answer "no"';
 const minNum = 1;
 const maxNum = 101;
 
@@ -13,6 +13,6 @@ const getRoundData = () => {
   return cons(question, correctAnswer);
 };
 
-const playEvenGame = () => playGame(getRoundData, rules);
+const playEvenGame = () => playGame(getRoundData, description);
 
 export default playEvenGame;

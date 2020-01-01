@@ -1,7 +1,7 @@
 import { cons } from '@hexlet/pairs';
 import { getRandomNum, playGame } from '..';
 
-const rules = 'Answer "yes" if given number is prime. Otherwise answer "no".';
+const description = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
 const minNum = 1;
 const maxNum = 102;
@@ -22,6 +22,6 @@ const getRoundData = () => {
   return cons(num, correctAnswer);
 };
 
-const playEvenGame = () => playGame(getRoundData, rules);
+const playEvenGame = () => playGame(getRoundData, description);
 
 export default playEvenGame;

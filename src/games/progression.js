@@ -1,7 +1,7 @@
 import { cons } from '@hexlet/pairs';
 import { getRandomNum, playGame } from '..';
 
-const rules = 'What number is missing in the progression?';
+const description = 'What number is missing in the progression?';
 
 const items = 10;
 const minNum = 1;
@@ -27,6 +27,6 @@ const getRoundData = () => {
   return result;
 };
 
-const playEvenGame = () => playGame(getRoundData, rules);
+const playEvenGame = () => playGame(getRoundData, description);
 
 export default playEvenGame;

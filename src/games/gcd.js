@@ -1,7 +1,7 @@
 import { cons } from '@hexlet/pairs';
 import { getRandomNum, playGame } from '..';
 
-const rules = 'Find the greatest common divisor of given numbers.';
+const description = 'Find the greatest common divisor of given numbers.';
 
 const minNum = 1;
 const maxNum = 30;
@@ -20,6 +20,6 @@ const getRoundData = () => {
   return cons(question, String(correctAnswer));
 };
 
-const playEvenGame = () => playGame(getRoundData, rules);
+const playEvenGame = () => playGame(getRoundData, description);
 
 export default playEvenGame;

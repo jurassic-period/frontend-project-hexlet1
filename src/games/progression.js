@@ -1,28 +1,29 @@
 import { cons } from '@hexlet/pairs';
-import { getRandomNum, playGame } from '..';
+import { playGame } from '..';
+import getRandomNum from '../utils';
 
 const description = 'What number is missing in the progression?';
 
-const items = 10;
+const progressionLength = 10;
 const minNum = 1;
 const maxNum = 50;
 
 const getQuestionAndAnswer = (beginingNum, hidePosition) => {
-  const row = '';
-  const step = getRandomNum(minNum, minNum + 10);
+  const emptyAcc = '';
+  const progressionStep = getRandomNum(minNum, progressionLength);
   const iter = (counter, acc, currentNum) => {
-    if (counter === items) return acc;
+    if (counter === progressionLength) return acc;
     if (counter === hidePosition) {
-      return cons(iter(counter + 1, `${acc} ..`, currentNum + step), String(currentNum));
+      return cons(iter(counter + 1, `${acc} ..`, currentNum + progressionStep), String(currentNum));
     }
-    return iter(counter + 1, `${acc} ${currentNum}`, currentNum + step);
+    return iter(counter + 1, `${acc} ${currentNum}`, currentNum + progressionStep);
   };
-  return iter(0, row, beginingNum);
+  return iter(0, emptyAcc, beginingNum);
 };
 
 const getRoundData = () => {
   const beginingNum = getRandomNum(minNum, maxNum);
-  const hidePosition = getRandomNum(minNum, minNum + 9);
+  const hidePosition = getRandomNum(minNum, progressionLength);
   const result = getQuestionAndAnswer(beginingNum, hidePosition);
   return result;
 };

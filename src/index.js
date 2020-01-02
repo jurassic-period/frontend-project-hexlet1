@@ -10,14 +10,6 @@ export const showWelcomAndRules = (rules) => {
   }
 };
 
-export const getName = () => {
-  const userName = readlineSync.question('May I have your name? ');
-  console.log(`Hello, ${userName}!`);
-  return userName;
-};
-
-export const getRandomNum = (min, max) => Math.floor(Math.random() * (max - min) + min);
-
 const gameProcess = (playerName, roundCounter, getRoundData) => {
   if (roundCounter === 3) {
     return true;
@@ -35,10 +27,12 @@ const gameProcess = (playerName, roundCounter, getRoundData) => {
   return false;
 };
 
-export const playGame = (getRoundData, currentRules) => {
-  showWelcomAndRules(currentRules);
-  const playerName = getName();
-  const gameResult = gameProcess(playerName, 0, getRoundData);
+export const playGame = (getRoundData, description) => {
+  showWelcomAndRules(description);
+  const playerName = readlineSync.question('May I have your name? ');
+  console.log(`Hello, ${playerName}!`);
+  const roundCounter = 0;
+  const gameResult = gameProcess(playerName, roundCounter, getRoundData);
   if (gameResult) {
     console.log(`Congratulations, ${playerName}!`);
   } else {

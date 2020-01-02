@@ -2,7 +2,7 @@
 
 ## Консольное приложение, содержащее набор мини-игр с общим движком.
 
-<a href="https://codeclimate.com/github/codeclimate/codeclimate/maintainability"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability" /></a> <a href="https://codeclimate.com/github/codeclimate/codeclimate/test_coverage"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/test_coverage" /></a> [![Build Status](https://travis-ci.org/jurassic-period/frontend-project-hexlet1.svg?branch=master)](https://travis-ci.org/jurassic-period/frontend-project-hexlet1)
+<a href="https://codeclimate.com/github/jurassic-period/frontend-project-hexlet1/maintainability"><img src="https://api.codeclimate.com/v1/badges/14aa4c2355bfe2cf9b0e/maintainability" /></a></a> [![Build Status](https://travis-ci.org/jurassic-period/frontend-project-hexlet1.svg?branch=master)](https://travis-ci.org/jurassic-period/frontend-project-hexlet1)
 
 ## Навыки и технологии
 

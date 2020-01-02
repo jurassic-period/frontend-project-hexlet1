@@ -1,5 +1,6 @@
 import { cons } from '@hexlet/pairs';
-import { getRandomNum, playGame } from '..';
+import { playGame } from '..';
+import getRandomNum from '../utils';
 
 const description = 'What is the result of the expression?';
 
@@ -23,10 +24,13 @@ const getRoundData = () => {
       const correctAnswer = firstNum > secondNum ? firstNum - secondNum : secondNum - firstNum;
       return cons(question, String(correctAnswer));
     }
-    default: {
+    case '*': {
       const question = `${firstNum} * ${secondNum}`;
       const correctAnswer = firstNum * secondNum;
       return cons(question, String(correctAnswer));
+    }
+    default: {
+      return null;
     }
   }
 };

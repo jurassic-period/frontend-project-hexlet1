@@ -2,23 +2,22 @@ import readlineSync from 'readline-sync';
 import { car, cdr } from '@hexlet/pairs';
 
 const welcome = 'Welcome to the Brain Games!';
+const amountRounds = 3;
 
 export const showWelcomAndRules = (rules) => {
   console.log(welcome);
-  if (rules) {
-    console.log(rules);
-  }
+  console.log(rules);
 };
 
 const gameProcess = (playerName, roundCounter, getRoundData) => {
-  if (roundCounter === 3) {
+  if (roundCounter === amountRounds) {
     return true;
   }
   const data = getRoundData();
   const question = car(data);
   const correctAnswer = cdr(data);
   console.log(`Question: ${question} `);
-  const playerAnswer = readlineSync.question('Your answer: ');
+  const playerAnswer = readlineSync.question('Your answer:');
   if (playerAnswer === correctAnswer) {
     console.log('Correct!');
     return gameProcess(playerName, roundCounter + 1, getRoundData);

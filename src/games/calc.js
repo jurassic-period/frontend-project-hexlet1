@@ -12,22 +12,21 @@ const getRoundData = () => {
   const randomOperand = operations[getRandomNum(minNum, operations.length)];
   const firstNum = getRandomNum(minNum, maxNum);
   const secondNum = getRandomNum(minNum, maxNum);
+  const question = `${firstNum} ${randomOperand} ${secondNum}`;
+  const makeData = (qstn, correctAnswer) => cons(qstn, String(correctAnswer));
 
   switch (randomOperand) {
     case '+': {
-      const question = `${firstNum} + ${secondNum}`;
       const correctAnswer = firstNum + secondNum;
-      return cons(question, String(correctAnswer));
+      return makeData(question, correctAnswer);
     }
     case '-': {
-      const question = firstNum > secondNum ? `${firstNum} - ${secondNum}` : `${secondNum} - ${firstNum}`;
-      const correctAnswer = firstNum > secondNum ? firstNum - secondNum : secondNum - firstNum;
-      return cons(question, String(correctAnswer));
+      const correctAnswer = firstNum - secondNum;
+      return makeData(question, correctAnswer);
     }
     case '*': {
-      const question = `${firstNum} * ${secondNum}`;
       const correctAnswer = firstNum * secondNum;
-      return cons(question, String(correctAnswer));
+      return makeData(question, correctAnswer);
     }
     default: {
       return null;

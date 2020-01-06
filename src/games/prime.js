@@ -4,11 +4,12 @@ import getRandomNum from '../utils';
 
 const description = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
-const minNum = 2;
+const minNum = 1;
 const maxNum = 102;
 const startDivisor = 2;
 
 const isPrime = (number) => {
+  if (number < 2) return false;
   const iter = (divisor, num) => {
     if (divisor > num / 2) return true;
     if (num % divisor === 0) return false;

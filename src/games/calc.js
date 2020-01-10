@@ -1,5 +1,5 @@
 import { cons } from '@hexlet/pairs';
-import { playGame } from '..';
+import playGame from '..';
 import getRandomNum from '../utils';
 
 const description = 'What is the result of the expression?';
@@ -8,30 +8,30 @@ const minNum = 0;
 const maxNum = 10;
 const operations = ['-', '+', '*'];
 
+const getAnswer = (operand, firstNum, secondNum) => {
+  switch (operand) {
+    case '+': {
+      return firstNum + secondNum;
+    }
+    case '-': {
+      return firstNum - secondNum;
+    }
+    case '*': {
+      return firstNum * secondNum;
+    }
+    default: break;
+  }
+  return null;
+};
+
 const getRoundData = () => {
-  const randomOperand = operations[getRandomNum(minNum, operations.length)];
+  const maxIndexOperation = operations.length - 1;
+  const randomOperand = operations[getRandomNum(minNum, maxIndexOperation)];
   const firstNum = getRandomNum(minNum, maxNum);
   const secondNum = getRandomNum(minNum, maxNum);
   const question = `${firstNum} ${randomOperand} ${secondNum}`;
-  const makeData = (qstn, correctAnswer) => cons(qstn, String(correctAnswer));
-
-  switch (randomOperand) {
-    case '+': {
-      const correctAnswer = firstNum + secondNum;
-      return makeData(question, correctAnswer);
-    }
-    case '-': {
-      const correctAnswer = firstNum - secondNum;
-      return makeData(question, correctAnswer);
-    }
-    case '*': {
-      const correctAnswer = firstNum * secondNum;
-      return makeData(question, correctAnswer);
-    }
-    default: {
-      return null;
-    }
-  }
+  const correctAnswer = getAnswer(randomOperand, firstNum, secondNum);
+  return cons(question, String(correctAnswer));
 };
 
 const playCalcGame = () => playGame(getRoundData, description);

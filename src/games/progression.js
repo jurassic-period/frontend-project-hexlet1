@@ -27,7 +27,7 @@ const getRoundData = () => {
   const beginingNum = getRandomNum(minNum, maxNum);
   const hiddenElementPosition = getRandomNum(minNum, maxHidenPosition);
   const progressionStep = getRandomNum(minStep, maxStep);
-  const question = getQuestion(beginingNum, hiddenElementPosition, progressionStep);
+  const question = getQuestion(beginingNum, hiddenElementPosition, progressionStep).slice(1);
   const correctAnswer = beginingNum + (hiddenElementPosition * progressionStep);
   return cons(question, String(correctAnswer));
 };

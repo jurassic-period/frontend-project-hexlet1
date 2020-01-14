@@ -9,7 +9,7 @@ const minNum = 1;
 const maxNum = 50;
 const minStep = 1;
 const maxStep = 10;
-const maxHidenPosition = 9;
+const maxHidenPosition = progressionLength - 1;
 
 const getQuestion = (beginingNum, hidePosition, step) => {
   const emptyAcc = '';
